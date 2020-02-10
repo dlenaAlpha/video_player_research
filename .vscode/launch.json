@@ -1,0 +1,43 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chewie",
+      "program": "lib/main_chewie_player.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "VideoPlayer",
+      "program": "lib/main_video_player.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "VideoPlayer_IOSDevice",
+      "program": "lib/main_video_player.dart",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "b7f15a80e3e4e34c66c0455e2b3c316b3928d8e3"
+    },
+    {
+      "name": "VideoPlayer_AndroidDevice",
+      "program": "lib/main_video_player.dart",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "9WV4C19415002272"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": [
+        "VideoPlayer_IOSDevice",
+        "VideoPlayer_AndroidDevice"
+      ],
+    }
+  ]
+}
